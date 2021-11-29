@@ -4,19 +4,9 @@ const emojiCollection = require('./emojiCollection.js')
 
 const Ajv = require("ajv")
 const ajv = new Ajv({ allErrors: true })
-const schema = {
-    type: "object",
-    properties: {
-      foo: {type: "integer"},
-      bar: {type: "string"}
-    },
-    required: ["foo"],
-    additionalProperties: false
-  }
-
-// we verify loop our collection to check if each element follows the expected schema rules
 
 emojiCollection.forEach( emojiItem => {
+    // loop collection elements for validation
     const validation = ajv.validate(emoji, emojiItem)
     console.log('VALIDATION', validation)
     validation
