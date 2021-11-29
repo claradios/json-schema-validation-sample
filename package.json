@@ -1,0 +1,22 @@
+{
+  "name": "json-schema-validation-sample",
+  "version": "1.0.0",
+  "description": "json schema validation sample with learning proposes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/claradios/json-schema-validation-sample.git"
+  },
+  "author": "claradios",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/claradios/json-schema-validation-sample/issues"
+  },
+  "homepage": "https://github.com/claradios/json-schema-validation-sample#readme",
+  "dependencies": {
+    "ajv": "^8.8.2"
+  }
+}
