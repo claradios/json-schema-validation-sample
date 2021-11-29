@@ -31,8 +31,7 @@ module.exports = [
     emojiName: ':middle_finger:',
     symbol: '💎',
     polite: 'false',
-    emotionalIntensity: '3',
     meanings: 'disagreement in a strong way with someone or something',
     color: 'blue'
    }
-  ];
+];

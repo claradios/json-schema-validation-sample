@@ -1,8 +1,9 @@
 const emoji  = require('./schemas/emoji.js');
 const emojiCollection = require('./emojiCollection.js');
 
-const Ajv = require("ajv");
+const Ajv = require("ajv").default;
 const ajv = new Ajv({ allErrors: true });
+require("ajv-errors")(ajv /*, {singleError: true} */)
 
 emojiCollection.forEach( emojiItem => {
   // loop collection elements for validation

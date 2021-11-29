@@ -27,4 +27,15 @@ module.exports = {
         type: "string"
       }
     },
+    errorMessage: {
+        type: "should be an object", // will not replace internal "type" error for the properties listed above
+        required: {
+            emojiName: "should have a string property 'emojiName'",
+            polite: "should have a boolean property 'polite'",
+            meanings: "should have an array of strings property 'meanings'",
+            emotionalIntensity: "should have an integer property 'emotionalIntensity'",
+            symbol: "should have a string property 'symbol'"
+        },
+        additionalProperties: "should not have properties other than emojiName, polite, meanings, emotionalIntensity, symbol",
+      },
   };
