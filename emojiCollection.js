@@ -31,7 +31,7 @@ module.exports = [
     emojiName: ':middle_finger:',
     symbol: '💎',
     polite: 'false',
-    meanings: 'disagreement in a strong way with someone or something',
+    meanings: 'It means wealth, marriage, and jewelry. It is mostly used to suggest marriage engagements, expensiveness, and aristocracy',
     color: 'blue'
    }
 ];
