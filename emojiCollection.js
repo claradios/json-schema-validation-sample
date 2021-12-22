@@ -17,21 +17,21 @@ module.exports = [
     ] 
   },
   {
-    emojiName: ':middle_finger:',
-    symbol: '🖕',
+    emojiName: ':face_with_symbols_on_mouth:',
+    symbol: '🤬',
     polite: false,
     emotionalIntensity: 4,
-    meanings: [
-      'disagreement in a strong way with someone or something',
-      'go f*** yourself'
+    meanings: [ 
+       'swearing or being vulgar', 
+       'convey an outburst of anger, frustration, or rage'
     ]
   },
   { 
     // this element will fail because of: extraProperty (color), polite is not boolean, meanings is not array, emotionalIntensity is not a number.
     emojiName: ':middle_finger:',
     symbol: '💎',
-    polite: 'false',
+    polite: 'true',
     meanings: 'disagreement in a strong way with someone or something',
     color: 'blue'
-   }
+  }
 ];
