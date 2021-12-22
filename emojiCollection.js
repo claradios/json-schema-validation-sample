@@ -28,10 +28,10 @@ module.exports = [
   },
   { 
     // this element will fail because of: extraProperty (color), polite is not boolean, meanings is not array, emotionalIntensity is not a number.
-    emojiName: ':middle_finger:',
+    emojiName: ':gem:',
     symbol: '💎',
     polite: 'true',
-    meanings: 'disagreement in a strong way with someone or something',
+    meanings: 'It means diamond, wealth, marriage, and jewelry. It is mostly used to suggest marriage engagements, expensiveness, and aristocracy',
     color: 'blue'
-  }
+   }
 ];

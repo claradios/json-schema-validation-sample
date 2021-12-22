@@ -9,6 +9,6 @@ emojiCollection.forEach( emojiItem => {
   // loop collection elements for validation
   const validation = ajv.validate(emoji, emojiItem);
   validation
-    ? console.log(`emoji: ${emojiItem.symbol} is correctly builded`)
+    ? console.log(`emoji: ${emojiItem.symbol} is correctly built`)
     : console.log(`emoji: ${emojiItem.symbol} has the following errors: ${JSON.stringify(ajv.errors, null, 2)}`);
 });
